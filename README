@@ -1,0 +1,6 @@
+docker run -it -d --restart=always \
+	-e CORES=8 \
+	-e CONF_BRANCH=msr \
+	--name xmr-stak-cpu shaf/xmr-stak-cpu
+
+
