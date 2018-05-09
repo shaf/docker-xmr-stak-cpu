@@ -18,6 +18,7 @@ mkdir -p /app/my-conf
 cd /app/my-conf
 git clone https://github.com/shaf/docker-xmr-stak-conf.git
 cd /app/my-conf/docker-xmr-stak-conf
+git fetch --all
 git checkout $CONF_BRANCH
 cp -f /app/my-conf/docker-xmr-stak-conf/*.txt /app/
 
